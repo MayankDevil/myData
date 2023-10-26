@@ -1,1 +1,135 @@
-<!--  -->
+<!DOCTYPE html>
+<!--
+-   bug
+-   "purpose to show we are not stop there"
+-   Develope by MayankDevil
+-   https://mayankdevil.github.io/myData/bug.html
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MayankDevil </title>
+    <!--
+        ---------
+        | style |
+        ---------
+    -->
+    <style>
+        *{
+			margin:0;
+			padding: 0;
+			font-family:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+			font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji";
+			color:#20252b;
+			text-decoration: none;
+			font-weight: normal;
+			border: none;
+			outline: none;
+			box-sizing: border-box;
+		}
+        main{
+            display: grid;
+            grid-template-rows: 9fr 1fr;
+            height: 100vh;
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            /* background: #e9e7db; */
+            /* background: #f8f9fa; */
+        }
+        #logo{
+            width: 500px;
+            margin: 0 auto;
+        }
+        h1{
+            font-size: 5vw;
+            color:#6c757d;
+        }
+        h2{
+            padding-top: 3rem;
+            color:#000000;
+            color:#343a40;
+        }
+        a{
+            font-weight: bold;
+            color: #007bff;
+        }
+        @media  screen and (max-width:500PX)
+        {
+            main{
+                /* background: green; */
+            }
+            #logo{
+                width: 100%;
+            }
+            footer{
+                padding: 1rem;
+            }
+            a{
+                line-height: 2rem;
+            }
+            #backBtn{
+                display: block;
+                padding: 1rem;
+            }
+        }
+        
+    </style>
+  
+</head>
+
+<body>
+    <!--
+        --------
+        | main |
+        --------
+    -->
+    <main>
+
+        <header>
+
+            <h2> I am Working on it, Dear! </h2>
+            
+            <img src="./developer.jpg" alt="notfound" id="logo">
+            
+            <h1> कार्यस्य व्यस्तप्रतीक्षायाः कृते क्षमाप्रार्थना </h1>
+
+            <!-- कार्य हेतू व्यस्त परतीक्षा के लिए खेद  -->
+
+            <!-- <a id="backBtn"> &lArr; Back to Webpage  </a> -->
+
+        </header>
+
+        <footer>
+
+            MayankDevil <a>&copy</a> Developed | Designed by <a href="https://github.com/MayankDevil"> Mayank </a>
+
+        </footer>
+
+    </main>
+    <!--
+        ----------
+        | script |
+        ----------
+    -->
+    <script>
+
+        // time out forward webpage
+
+        setTimeout(function(){
+
+            window.history.forward()
+
+            
+        }, 3000);
+
+        // window.history.back()
+
+    </script>
+
+</body>
+
+</html>
