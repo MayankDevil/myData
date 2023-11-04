@@ -1,11 +1,10 @@
-<!--
 # myData
 
 #### this is collection of data folders & images & JSON files
 ---
 ###### URL : https://mayankdevil.github.io/myData/
 
--->
+<!-- 
 
 # repository
 
@@ -77,4 +76,4 @@ __" We embrace responsible and ethical use of the resources we provide. Our goal
 
 [![twitter](https://img.shields.io/badge/MayankDevil-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MayankDevil/)
 
-<!-- -->
+-->
