@@ -75,8 +75,6 @@ __" We urge all users to respect the copyright and intellectual property rights 
 
 __" We embrace responsible and ethical use of the resources we provide. Our goal is to empower learners in a conducive and lawful environment, fostering a sense of respect and integrity within our community. Your commitment to these principles is greatly appreciated. "__
 
-author : 
-
-[![twitter](https://img.shields.io/badge/github-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MayankDevil/)
+author : [![twitter](https://img.shields.io/badge/Mayank-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MayankDevil/)
 
 <!-- -->
