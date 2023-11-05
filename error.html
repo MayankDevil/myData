@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--
+-   bug
+-   "purpose to show we are not stop there"
+-   Develope by MayankDevil
+-   https://mayankdevil.github.io/myData/bug.html
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MayankDevil </title>
+    <!--
+        ---------
+        | style |
+        ---------
+    -->
+    <style>
+        *{
+            user-select: none;
+			margin:0;
+			padding: 0;
+			font-family:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+			font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji";
+			color:#20252b;
+			text-decoration: none;
+			font-weight: normal;
+			border: none;
+			outline: none;
+			box-sizing: border-box;
+		}
+        main .row{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            justify-content:space-around ;
+            height: 100vh;
+            width: 100%;
+            margin: auto;
+            background: #e9e7db;
+            /* background: #f8f9fa; */
+        }
+        .col:first-child{
+            text-align: center;
+        }
+        .col{
+            padding: 1rem;
+            /* border: 1px solid red; */
+        }
+        #logo{
+            width: 500px;
+            margin: 0 auto;
+        }
+        h3{
+            font-size: 2vw;
+            color:#6c757d;
+        }
+        h2{
+            padding: 3rem 0;
+            color:#415f40;
+        }
+        a{
+            color: #007bff;
+            color:#3d582f;
+        }
+        #btn{
+            display: inline-block;
+            margin: 1rem auto;
+            padding: 1rem;
+            color:#e9e7db;
+            background: #396624;
+            border-radius: 1rem 0 1rem 1rem;
+        }
+        #btn:hover{
+            opacity:0.8;
+        }
+        @media  screen and (max-width:1000PX)
+        {
+            main .row{
+                grid-template-columns: 1fr !important;
+                place-content: center;
+            }
+            .col{
+                text-align: center;
+            }
+            h3{
+                font-size: 2rem;
+            }
+        }
+        @media  screen and (max-width:500PX)
+        {
+            #logo{
+                width: 100%;
+            }
+            h3{
+                font-size: 1.5rem;
+            }
+        }
+        
+    </style>
+  
+</head>
+
+<body>
+    <!--
+        --------
+        | main |
+        --------
+    -->
+    <main>
+
+        <div class="row">
+
+            <div class="col">
+            
+                <img src="./yog.jpg" alt="notfound" id="logo">
+                
+            </div>
+
+            <div class="col">
+            
+                <h3> ERROR_403 : Forbidden by <a href="https://github.com/MayankDevil"> MayankDevil </a>  </h3>
+                
+                <h2> "प्रवेशः अङ्गीकृतः: भवतः एतत् पृष्ठं द्रष्टुं अनुमतिः नास्ति।" </h2>
+
+                <!-- "Access Denied: You do not have permission to view this page." -->
+
+                <button id="btn"> back_page </button>
+                
+            </div>
+
+        </div>
+
+        <header>
+
+    </main>
+    <!--
+        ----------
+        | script |
+        ----------
+    -->
+    <script>
+
+        // onclick button back() webapage
+
+        document.getElementById('btn').onclick = () => {
+
+            window.history.back()
+
+        }
+
+    </script>
+
+</body>
+
+</html>
