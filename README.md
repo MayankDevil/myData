@@ -76,6 +76,19 @@ __" We urge all users to respect the copyright and intellectual property rights 
 
 __" We embrace responsible and ethical use of the resources we provide. Our goal is to empower learners in a conducive and lawful environment, fostering a sense of respect and integrity within our community. Your commitment to these principles is greatly appreciated. "__
 
-[![twitter](https://img.shields.io/badge/MayankDevil-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MayankDevil/)
+### Copyright Notice
+
+Designed | Developed Copyright (c) by _Mayank_ .
+
+__This website Designed and Development property of Mayank and is protected under copyright law. Unathorized reproduction, distribution, or disclosure of this Project, or any part of this mayank Developed Content is strictly prohibited. But we are not claimed any content of IT Act law they are only Copyright (c) by Goverment of India.__
+
+For permissions, please contact the respository owners through their Github profiles:
+
+[![Mayank](https://img.shields.io/badge/MayankDevil-FEFEFE?style=for-the-badge&logo=github&logoColor=CYAN)](https://mayankdevil.github.io/MayankDevil/)
+
+Any unauthorized use of the Designed and Development repository may constitute a violation of copyright law.
+
+
+
 
 -->
