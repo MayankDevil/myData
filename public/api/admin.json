@@ -1,0 +1,625 @@
+{
+	"admin" : [
+
+		{
+			"username" : "Mayank",
+			"password" : "devil",
+			"data" : [
+
+				{
+					"folder" : "Project-0",
+					"name" : "Coffie House",
+					"description" : "live search hub on network for respect grand father memory",
+					"software" : "WebApplication",
+					"techStack" : [
+						"HTML",
+						"CSS",
+						"JavaScript",
+						"JQuery"
+					],
+					"thank" : [
+						"GitHub",
+						"VSCodium",
+						"GIMP",
+						"Unplash",
+						"Bootstrap-Icon",
+						"Indardanus",
+						"EntityCode"
+					],
+					"developer" : [
+						"Mayank"
+					],
+					"copyright" : [
+						"MayankDevil"
+					],
+					"look" : null, 
+					"url" : "https://mayankdevil.github.io/Project-0",
+					"clone" : "https://github.com/MayankDevil/Project-0.git",
+					"download" : "https://github.com/MayankDevil/Project-0/archive/refs/heads/main.zip",
+					"status" : "REST",
+					"update" : "2025-04-01",
+					"version" : "2",
+					"isResponsive" : false,
+					"isPrivate": true,
+					"alert" : null
+				},
+
+				{
+					"folder" : "Project-2",
+					"name" : "GUPT",
+					"description" : "ensure free digital security college final year project",
+					"software" : "WebApplication",
+					"techStack" : [
+						"HTML",
+						"CSS",
+						"JavaScript",
+						"BatchScript"
+					],
+					"thank" : [
+						"GitHub",
+						"VSCodium",
+						"GIMP",
+						"Bootstrap-Icon",
+						"Indardanus"
+					],
+					"developer" : [
+						"Mayank",
+						"HRitik"
+					],
+					"copyright" : [
+						"MayankDevil",
+						"Hritikkummar732"
+					],
+					"look" : null, 
+					"url" : "https://mayankdevil.github.io/Project-2",
+					"clone" : "https://github.com/MayankDevil/Project-2.git",
+					"download" : "https://github.com/MayankDevil/Project-2/archive/refs/heads/main.zip",
+					"status" : "COMPLETED",
+					"update" : "2024-01-12",
+					"version" : "1",
+					"isResponsive" : true,
+					"isPrivate": false,
+					"alert" : null
+				},
+
+				{
+					"folder" : "Indardanus",
+					"name" : "Indardanus",
+					"description" : "nice colour choosing website help to better theme in work",
+					"software" : "WebApplication",
+					"techStack" : [
+						"HTML",
+						"CSS",
+						"JavaScript"
+					],
+					"thank" : [
+						"GitHub",
+						"VSCodium",
+						"GIMP",
+						"EntityCode"
+					],
+					"developer" : [
+						"Mayank"
+					],
+					"copyright" : [
+						"MayankDevil"
+					],
+					"look" : null, 
+					"url" : "https://mayankdevil.github.io/Indardanus",
+					"clone" : "https://github.com/MayankDevil/Indardanus.git",
+					"download" : "https://github.com/MayankDevil/Indardanus/archive/refs/heads/main.zip",
+					"status" : "COMPLETED",
+					"update" : "2023-01-12",
+					"version" : "3",
+					"isResponsive" : true,
+					"isPrivate": false,
+					"alert" : null
+				},
+
+				{
+					"folder" : "EntityCode",
+					"name" : "Entity Code",
+					"description" : "special characters website set symbol or characters style",
+					"software" : "WebApplication",
+					"techStack" : [
+						"HTML",
+						"CSS",
+						"JavaScript"
+					],
+					"thank" : [
+						"GitHub",
+						"VSCodium",
+						"GIMP",
+						"EntityCode"
+					],
+					"developer" : [
+						"Mayank"
+					],
+					"copyright" : [
+						"MayankDevil"
+					],
+					"look" : null, 
+					"url" : "https://mayankdevil.github.io/EntityCode",
+					"clone" : "https://github.com/MayankDevil/EntityCode.git",
+					"download" : "https://github.com/MayankDevil/EntityCode/archive/refs/heads/main.zip",
+					"status" : "COMPLETED",
+					"update" : "2023-01-12",
+					"version" : "3",
+					"isResponsive" : true,
+					"isPrivate": false,
+					"alert" : null
+				},
+
+				{
+					"folder" : "ProCoders",
+					"name" : "ProCoders",
+					"description" : "online learning plathform collection of multiple websites",
+					"software" : "WebApplication",
+					"techStack" : [
+						"HTML",
+						"CSS",
+						"JavaScript",
+						"Bootstrap"
+					],
+					"thank" : [
+						"GitHub",
+						"VSCodium",
+						"GIMP",
+						"Unplash",
+						"Freepik",
+						"Bootstrap-Icon"
+					],
+					"developer" : [
+						"Mayank"
+					],
+					"copyright" : [
+						"MayankDevil"
+					],
+					"look" : null, 
+					"url" : "https://mayankdevil.github.io/ProCoders",
+					"clone" : "https://github.com/MayankDevil/ProCoders.git",
+					"download" : "https://github.com/MayankDevil/ProCoders/archive/refs/heads/main.zip",
+					"status" : "COMPLETED",
+					"update" : "2023-01-12",
+					"version" : "3",
+					"isResponsive" : true,
+					"isPrivate": false,
+					"alert" : null
+				},
+
+				{
+					"folder" : "DBMS_website",
+					"name" : "DBMS website",
+					"description" : "database management system website simple with exmaple or sythax",
+					"software" : "WebApplication",
+					"techStack" : [
+						"HTML",
+						"CSS",
+						"JavaScript",
+						"Bootstrap"
+					],
+					"thank" : [
+						"GitHub",
+						"VSCodium",
+						"GIMP",
+						"Oracle"
+					],
+					"developer" : [
+						"Mayank"
+					],
+					"copyright" : [
+						"MayankDevil"
+					],
+					"look" : null, 
+					"url" : "https://mayankdevil.github.io/DBMS_website",
+					"clone" : "https://github.com/MayankDevil/DBMS_website.git",
+					"download" : "https://github.com/MayankDevil/DBMS_website/archive/refs/heads/main.zip",
+					"status" : "COMPLETED",
+					"update" : "2023-01-12",
+					"version" : "2",
+					"isResponsive" : true,
+					"isPrivate": false,
+					"alert" : null
+				},
+
+				{
+					"folder" : "PHP_website",
+					"name" : "PHP website",
+					"description" : "php basic learning website college assignment project with data store",
+					"software" : "WebApplication",
+					"techStack" : [
+						"HTML",
+						"CSS",
+						"JavaScript"
+					],
+					"thank" : [
+						"GitHub",
+						"VSCodium",
+						"GIMP",
+						"PHP",
+						"Indardanus",
+						"EntityCode"
+					],
+					"developer" : [
+						"Mayank"
+					],
+					"copyright" : [
+						"MayankDevil"
+					],
+					"look" : null, 
+					"url" : "https://mayankdevil.github.io/PHP_website",
+					"clone" : "https://github.com/MayankDevil/PHP_website.git",
+					"download" : "https://github.com/MayankDevil/PHP_website/archive/refs/heads/main.zip",
+					"status" : "COMPLETED",
+					"update" : "2023-01-12",
+					"version" : "2",
+					"isResponsive" : true,
+					"isPrivate": false,
+					"alert" : null
+				},
+
+				{
+					"folder" : "Java_website",
+					"name" : "Java website",
+					"description" : "online note website for deep java programming knowledge with syntax",
+					"software" : "WebApplication",
+					"techStack" : [
+						"HTML",
+						"CSS",
+						"JavaScript"
+					],
+					"thank" : [
+						"GitHub",
+						"VSCodium",
+						"GIMP",
+						"PHP",
+						"Indardanus",
+						"EntityCode"
+					],
+					"developer" : [
+						"Mayank"
+					],
+					"copyright" : [
+						"MayankDevil"
+					],
+					"look" : null, 
+					"url" : "https://mayankdevil.github.io/Java_website",
+					"clone" : "https://github.com/MayankDevil/Java_website.git",
+					"download" : "https://github.com/MayankDevil/Java_website/archive/refs/heads/main.zip",
+					"status" : "COMPLETED",
+					"update" : "2023-01-12",
+					"version" : "1",
+					"isResponsive" : true,
+					"isPrivate": false,
+					"alert" : null
+				},
+
+				{
+					"folder" : "style",
+					"name" : "Learn Style",
+					"description" : "live css collection website redirect mutliple learn style webpage",
+					"software" : "WebApplication",
+					"techStack" : [
+						"HTML",
+						"CSS"
+					],
+					"thank" : [
+						"GitHub",
+						"VSCodium",
+						"GIMP",
+						"Indardanus",
+						"EntityCode"
+					],
+					"developer" : [
+						"Mayank"
+					],
+					"copyright" : [
+						"MayankDevil"
+					],
+					"look" : null, 
+					"url" : "https://mayankdevil.github.io/style",
+					"clone" : "https://github.com/MayankDevil/style.git",
+					"download" : "https://github.com/MayankDevil/style/archive/refs/heads/main.zip",
+					"status" : "COMPLETED",
+					"update" : "2023-01-12",
+					"version" : "1",
+					"isResponsive" : true,
+					"isPrivate": false,
+					"alert" : null
+				},
+
+				{
+					"folder" : "script",
+					"name" : "Learn Script",
+					"description" : "live js collection website redirect mutliple learn script webpage",
+					"software" : "WebApplication",
+					"techStack" : [
+						"HTML",
+						"CSS",
+						"JavaScript"
+					],
+					"thank" : [
+						"GitHub",
+						"VSCodium",
+						"GIMP",
+						"Indardanus",
+						"EntityCode"
+					],
+					"developer" : [
+						"Mayank"
+					],
+					"copyright" : [
+						"MayankDevil"
+					],
+					"look" : null, 
+					"url" : "https://mayankdevil.github.io/script",
+					"clone" : "https://github.com/MayankDevil/script.git",
+					"download" : "https://github.com/MayankDevil/script/archive/refs/heads/main.zip",
+					"status" : "COMPLETED",
+					"update" : "2023-01-12",
+					"version" : "1",
+					"isResponsive" : true,
+					"isPrivate": false,
+					"alert" : null
+				},
+
+				{
+					"folder" : "CyberLaw",
+					"name" : "Cyber Law",
+					"description" : "live cyber law website attempt to awareness and provide knowledge of IT Act-2008",
+					"software" : "WebApplication",
+					"techStack" : [
+						"HTML",
+						"CSS",
+						"JavaScript",
+						"JQuery"
+					],
+					"thank" : [
+						"GitHub",
+						"VSCodium",
+						"GIMP",
+						"Unplash",
+						"Indardanus",
+						"EntityCode",
+						"Ministory or Ecommerce and Technology"
+					],
+					"developer" : [
+						"Mayank"
+					],
+					"copyright" : [
+						"MayankDevil"
+					],
+					"look" : null,
+					"url" : "https://mayankdevil.github.io/CyberLaw",
+					"clone" : "https://github.com/MayankDevil/CyberLaw.git",
+					"download" : "https://github.com/MayankDevil/CyberLaw/archive/refs/heads/main.zip",
+					"status" : "REST",
+					"update" : "2025-04-01",
+					"version" : "1",
+					"isResponsive" : false,
+					"isPrivate": false,
+					"alert" : null
+				},
+
+				{
+					"folder" : "CyberSkull",
+					"name" : "Cyber Skull",
+					"description" : "online notes of cyber world or networking on website for knowledge only",
+					"software" : "WebApplication",
+					"techStack" : [
+						"HTML",
+						"CSS",
+						"JavaScript"
+					],
+					"thank" : [
+						"GitHub",
+						"VSCodium",
+						"GIMP",
+						"Unplash",
+						"Indardanus",
+						"EntityCode"
+					],
+					"developer" : [
+						"Mayank"
+					],
+					"copyright" : [
+						"MayankDevil"
+					],
+					"look" : null,
+					"url" : "https://mayankdevil.github.io/CyberSkull",
+					"clone" : "https://github.com/MayankDevil/CyberSkull.git",
+					"download" : "https://github.com/MayankDevil/CyberSkull/archive/refs/heads/main.zip",
+					"status" : "REST",
+					"update" : "2025-04-1",
+					"version" : "1",
+					"isResponsive" : true,
+					"isPrivate": true,
+					"alert" : null
+				},
+
+				{
+					"folder" : "Assassin",
+					"name" : "Assassin",
+					"description" : "secret project by powered organization to management work",
+					"software" : "WebApplication",
+					"techStack" : [
+						"HTML",
+						"CSS",
+						"JavaScript"
+					],
+					"thank" : [
+						"GitHub",
+						"VSCodium",
+						"Indardanus",
+						"EntityCode"
+					],
+					"developer" : [
+						"Mayank",
+						"Alisha"
+					],
+					"copyright" : [
+						"MayankDevil",
+						"AlishaBeg"
+					],
+					"look" : null,
+					"url" : null,
+					"clone" : "https://github.com/MayankDevil/CyberSkull.git",
+					"download" : "https://github.com/MayankDevil/Assassin/archive/refs/heads/main.zip",
+					"status" : "PROGRESS",
+					"update" : "2025-04-01",
+					"version" : "2",
+					"isResponsive" : false,
+					"isPrivate": true,
+					"alert" : null
+				},
+
+				{
+					"folder" : "society",
+					"name" : "Society",
+					"description" : "collbrated developer programmer analiyst non-profitable society website for digital work service",
+					"software" : "WebApplication",
+					"techStack" : [
+						"HTML",
+						"CSS",
+						"JavaScript",
+						"JSON"
+					],
+					"thank" : [
+						"GitHub",
+						"VSCodium",
+						"GIMP",
+						"Unplash",
+						"Freepik",
+						"GoogleMap",
+						"Bootstrap-Icon",
+						"Indardanus",
+						"EntityCode"
+					],
+					"developer" : [
+						"Mayank"
+					],
+					"copyright" : [
+						"MayankDevil",
+						"Hritikkummar732",
+						"AlishaBeg"
+					],
+					"look" : null,
+					"url" : "https://mayankdevil.github.io/society",
+					"clone" : "https://github.com/MayankDevil/society.git",
+					"download" : "https://github.com/MayankDevil/society/archive/refs/heads/main.zip",
+					"status" : "REST",
+					"update" : "2025-04-01",
+					"version" : "2",
+					"isResponsive" : true,
+					"isPrivate": false,
+					"alert" : null
+				},
+
+				{
+					"folder" : "Tourism_website",
+					"name" : "Tourism website",
+					"description" : "collbrate learning with practical website about bootstrap or API connection",
+					"software" : "WebApplication",
+					"techStack" : [
+						"HTML",
+						"CSS",
+						"JavaScript",
+						"Bootstrap"
+					],
+					"thank" : [
+						"GitHub",
+						"VSCodium",
+						"Indardanus",
+						"EntityCode"
+					],
+					"developer" : [
+						"Mayank",
+						"Vinay"
+					],
+					"copyright" : [
+						"MayankDevil",
+						"Vinay"
+					],
+					"look" : null,
+					"url" : "https://mayankdevil.github.io/Tourisom_website",
+					"clone" : "https://github.com/MayankDevil/Tourisom_website.git",
+					"download" : "https://github.com/MayankDevil/Tourisom_website/archive/refs/heads/main.zip",
+					"status" : "REST",
+					"update" : "2025-04-01",
+					"version" : "2",
+					"isResponsive" : true,
+					"isPrivate": false,
+					"alert" : null
+				}
+
+			]
+		},
+		{
+			"username" : "Alisha",
+			"password" : "beg",
+			"data" : [
+				{
+					"folder" : "",
+					"name" : "",
+					"description" : "",
+					"software" : [
+						"WebApplication",
+						"DesktopApplication",
+						"ConsoleApplication"
+					],
+					"techStack" : [
+						"HTML",
+						"CSS",
+						"JavaScript",
+						"Bootstrap",
+						"JQuery",
+						"PHP",
+						"C",
+						"C++",
+						"Java",
+						"ShellScript",
+						"BatchScript",
+						"JSON"
+					],
+					"thank" : [
+						"GitHub",
+						"VSCodium",
+						"GIMP",
+						"Unplash",
+						"Freepik",
+						"GoogleMap",
+						"GoogleFont",
+						"Bootstrap-Icon",
+						"Indardanus",
+						"EntityCode"
+					],
+					"developer" : [
+						"Mayank",
+						"Alisha",
+						"HRitik"
+					],
+					"copyright" : [
+						"MayankDevil",
+						"AlishaBeg",
+						"Hritikkummar732"
+					],
+					"look" : null,
+					"url" : "https://mayankdevil.github.io/folder",
+					"clone" : "https://github.com/MayankDevil/folder.git",
+					"download" : "https://github.com/MayankDevil/folder/archive/refs/heads/main.zip",
+					"status" : " INIT | PROGRESS | REST | COMPLETED",
+					"update" : "2025-04-01",
+					"version" : "1",
+					"isResponsive" : false,
+					"isPrivate": true,
+					"alert" : null
+				}
+			]
+		},
+		{
+			"username" : "user",
+			"password" : "pass",
+			"data" : null
+		}
+	]
+}
