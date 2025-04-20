@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--
+-   "webite"
+-   Developed by MayankDevil
+-   HTML : ./.html
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MayankDevil</title>
+    <!--
+        ---------
+        | style |
+        ---------
+    -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <!--
+        -------------
+        | container |
+        -------------
+    -->
+    <main id="root">
+        <div class="container">
+            <div class="row">
+                <!-- ( col : sidebar ) -->
+                <div class="col" id="sidebar">
+
+                    <div class="user" id="user">
+                        <img src="../public/data/admin.png" alt="" class="pic" id="profile_img">
+                        <h4 id="profile_name"> MayankDevil ! </h4>
+                    </div>
+
+                    <aside id="aside">
+
+                        <a href="#" class="a_btn"> <span class="bi-person"></span> about </a>
+                        <a href="#" class="a_btn"> <span class="bi-pie-chart"></span> statics </a>
+                        <a href="#" class="a_btn"> <span class="bi-database"></span> database </a>
+
+                    </aside>
+
+                </div>
+                <!-- ( col : content container ) -->
+                <div class="col" id="frame">
+                    <!--
+                        =================
+                        [ about section ] -----
+                        =================
+                    -->
+                    <section class="section" id="aboutSection">
+                        
+                        <!-- ( heading ) -->
+                        <div id="heading">
+                            
+                            <h1> Welcome User </h1>
+                            
+                            <button class="btn" id="logout_btn"> <div class="bi bi-box"></div> Logout </button>
+
+                        </div>
+                        
+                        <div id="experience"></div>
+                        
+                    </section>
+                    <!--
+                        ===================
+                        [ statics section ] -----
+                        ===================
+                    -->
+                    <section class="section" id="staticsSection">
+                        
+                        <!-- ( barChart ) -->
+
+                        <div id="barChart"></div>
+
+                        <div id="workStatus"></div>
+
+                        <div id="totalWork">
+
+                            <h6 class="lead"> number count </h6>
+
+                        </div>
+
+                    </section>
+                    <!--
+                        ====================
+                        [ database section ] -----
+                        ====================
+                    -->
+                    <section class="section" id="databaseSection">
+
+                        <!-- ( search field ) -->
+
+                        <div id="search">
+
+                            <input type="search" name="" placeholder="search folder ..." class="fld" id="bar" />
+
+                            <button class="btn" id="search_btn"> <span class="bi bi-search"></span> </button>
+
+                        </div>
+
+                        <!-- ( datalist ) -->
+
+                        <div id="dataList"></div>
+
+                    </section>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <!--
+        ----------
+        | script |
+        ----------
+    -->    
+    <script src="./assets/jQuery.min.js"></script>
+    <script src="./js/account.js"></script>
+	<script src="./js/analysis.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,539 @@
+/*
+-	website-4 "Master"
+-	CopyRight by Master Mayank
+-	Design & Developed by Mayank
+-	CSS : css/style
+*/
+
+/*
+    ----------------------
+    | Bootstrap ICON URL |
+    ----------------------
+*/
+@import url(../assets/bootstrap-icons.min.css);
+
+*
+{
+    user-select:text;
+    margin: 0;
+    padding: 0;
+    font-family:'Dosis',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color:var(--dark1);
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body
+{
+    scroll-behavior: smooth;
+}
+
+:root
+{
+    --dark0:#f8f9fa;
+    --dark1:#e9ecef;
+    --dark2:#dee2e6;
+    --dark3:#ced4da;
+    --dark4:#adb5bd;
+    --dark5:#6c757d;
+    --dark6:#495057;
+    --dark7:#343a40;
+    --dark8:#212529;
+	--red0:#f8d7da;
+	--red4:#dc3545;
+	--red5:#b02a37;
+	--green0:#d1e7dd;
+	--green4:#198754;
+	--green5:#146c43;
+}
+
+
+::selection
+{
+    color:var(--blue9);
+    background: var(--black);
+}
+::placeholder
+{
+    color:var(--dark4);
+}
+::-webkit-scrollbar
+{
+    width: 0.5rem;
+    background: var(--blue);
+}
+::-webkit-scrollbar-thumb
+{
+    background: var(--light);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb
+::-moz-scrollbar-thumb
+::-ms-scrollbar-thumb
+{
+    background: var(--skyblue);
+}
+
+
+/*
+    comman css -------------------------
+*/
+/* .container
+{
+    max-width:1200px;
+    margin: 0 auto;
+} */
+.bg
+{
+    background: linear-gradient(rgba(11,33,45,0.5),var(--blue1));
+    backdrop-filter: blur(3px);
+}
+.bi
+{
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 1em;
+    color:var(--dark0);
+}
+
+h1
+{
+    font-weight: normal;
+}
+p
+{
+    line-height: 2rem;
+    font-weight: normal;
+    text-align: justify;
+}
+.row
+{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+}
+
+/* column first */
+
+.col:first-child
+{
+    display: block;
+    background: var(--dark8);
+}
+#user
+{
+    display: flex;
+    margin: 5rem 2rem;
+    align-items: center;
+}
+#user .pic
+{
+    width: 50px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#user h4
+{
+    padding: 1rem;
+}
+#aside
+{
+    display: block;
+    margin: 3rem 2rem;
+    /* background: green; */
+}
+#aside .a_btn
+{
+    display: block;
+    margin: 1rem 0;
+    padding:1rem;
+    font-size:small;
+    letter-spacing: 2px;
+    color: var(--dark5);
+}
+#aside .a_btn span
+{
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 1.2em;
+    background: var(--dark6);
+    border-radius: 5px;
+}
+#aside .a_btn:hover span
+{
+    background: var(--dark7);
+}
+#aside .a_btn:hover 
+{
+    color:var(--dark3)
+}
+
+/* column last */
+
+.col:last-child
+{
+    background: var(--dark7);
+}
+
+#heading
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 2rem auto;
+    padding: 10px;
+}
+
+#logout_btn
+{
+    display: flex;
+    align-items: center;
+}
+#logout_btn .bi
+{
+    padding: 0 5px;
+    color:var(--dark8);
+}
+
+.lead
+{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 3rem;
+    text-transform: lowercase;
+}
+.work_box
+{
+    margin-left: 1rem;
+    padding: 2rem;
+    border-left:2px dotted var(--dark2);
+}
+.group
+{
+    display: flex;
+    align-items: baseline;
+}
+.group::before
+{
+    content: '';
+    padding: 5px;
+    margin: 0 1.5rem 0 -2.4rem;
+    background: var(--dark8);
+    border:2px solid var(--dark8);
+    border-radius: 5px;
+}
+.pipe
+{
+    padding: 0 1rem;
+    color:var(--dark0);
+}
+.btn-outline
+{
+    display: inline-block;
+    margin: 5px auto;
+    padding: 5px 15px;
+    font-weight: bold;
+    color:var(--dark8);
+    border: 2px solid var(--dark8);
+    border-radius: 5px;
+}
+.btn-outline:hover
+{
+    color:var(--dark5);
+    border-color:var(--dark5);
+}
+.btn-outline .bi
+{
+    color:var(--dark8);
+}
+.btn-outline:hover .bi
+{
+    color:var(--dark5);
+}
+
+h2
+{
+    line-height: 3rem;
+    font-weight: lighter;
+    color: var(--dark3);
+}
+h4
+{
+    letter-spacing: 2px;
+    color:var(--dark4);
+}
+h6
+{
+    font-size:medium;
+    color:var(--dark5);
+}
+p
+{
+    padding: 0 5px;
+    font-size: smaller;
+    color:var(--dark5);
+}
+a
+{
+    /* display: inline-block; */
+    line-height: 1.5rem;
+    font-size: small;
+    color:var(--dark4);
+}
+a:hover
+{
+    color:var(--dark0);
+}
+
+#experience,
+#barChart,
+#workStatus,
+#totalWork
+{
+    display: block;
+    min-height: 10vh;
+    width: 90%;
+    margin: 2rem auto;  
+    padding:1rem;
+    border:1px solid var(--dark6);
+    border-radius: 1rem;
+}
+#barChart .legend
+{
+    display: flex;
+    width: 100px;
+    padding:0;
+    font-size: 12px;
+    color:var(--dark5);
+}
+#barChart .legend .pill
+{
+    width: 15px;
+    margin-right: 5px;
+}
+#barChart .bar
+{
+    display: flex;
+    align-items: center;
+    padding: 1px;
+    margin: 1rem auto;
+    /* background: var(--dark8); */
+}
+#barChart .bar .progress
+{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    padding: 2px;
+    margin: 1px;
+    background: var(--dark5);
+}
+
+#workStatus div
+{
+    display: flex;
+}
+#workStatus div .status
+{
+    margin-right: 10px;
+    font-size: small;
+    border:2px solid var(--dark5);
+}
+#workStatus .value
+{
+    padding: 5px 10px;
+    color:var(--dark8);
+    font-weight: bold;
+    background: var(--dark5);
+}
+#workStatus .key
+{
+    padding: 5px;
+    color: var(--dark5);
+}
+
+/* 
+    database section -----------------------------
+*/
+
+#search
+{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr auto;
+    width: 90%;
+    margin: 1rem auto;
+}
+#search #bar
+{
+    font-size: 1rem;
+    padding: 5px 20px;
+    caret-color: var(--red4);
+    color:var(--red0);
+    background: var(--dark6);
+}
+#search_btn
+{
+    background: var(--dark6);
+}
+#search_btn:hover
+{
+    color: var(--dark8);
+    background: var(--dark4);
+}
+
+
+#dataList .folder
+{
+    overflow: hidden;
+    width: 90%;
+    margin: 2rem auto;
+    border:1px solid var(--dark6);
+    border-radius: 5px;
+}
+
+#dataList .folder summary
+{
+    list-style-type: none;
+    border-bottom: 1px dotted var(--dark5);
+}
+
+#dataList .folder summary h3
+{
+    font-weight: normal;
+    color:var(--dark4);
+    text-align:right;
+}
+
+#dataList .folder p
+{
+    padding: 0 5px;
+    font-size: smaller;
+    color:var(--dark5);
+}
+#dataList .folder summary h5
+{
+    line-height: 2rem;
+    font-weight: normal;
+    color:var(--dark4)
+}
+
+.item
+{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.folder > .items:hover
+{
+    background:var(--dark8);
+}
+.first
+{
+    color:var(--dark5);
+    padding: 0 5px;
+}
+.last
+{
+    color:var(--dark4);
+}
+
+.folder > .item:last-child
+{
+    margin-top: 5px;
+}
+.folder > .item:last-child .first
+{
+
+}
+
+.clone_btn,
+.download_btn
+{
+    margin: 2px 1px;
+    padding:3px  10px;
+    font-size: small;
+    color:var(--dark8);
+    background:var(--dark3);
+    border-radius: 5px;
+}
+.download_btn:hover
+{
+    color:var(--dark3);
+    background: var(--dark6);
+}
+
+.clone_btn
+{
+    color:var(--dark4);
+    background-color: var(--dark8);
+}
+
+/*
+    login css ------------------------------------
+*/
+
+#login
+{
+	height:100vh;
+    background: var(--dark8);
+}
+form
+{
+    display: grid;
+    grid-gap:2rem;
+    max-width: 500px;
+    margin:auto;
+    padding: 5rem 1rem;
+}
+.fld
+{
+    padding: 1rem;
+	font-size:medium;
+    background: transparent;
+    border: 1px solid var(--dark6);
+    border-radius: 5px;
+}
+
+.btn
+{
+    display: inline-block;
+    padding: 0.5rem;
+    font-weight: bolder;
+    font-size: 1rem;
+    color:var(--dark8);
+    background: var(--dark4);
+    border-radius: 5px;
+}
+.btn:hover
+{
+    background: var(--dark0);
+}
+.valid
+{
+	padding:1rem;
+	font-size:small;
+    font-weight: bold;
+	color:var(--green4);
+	background:var(--green0);
+	border-radius:5px;
+}
+.unvalid
+{
+	padding:1rem;
+	font-size:small;
+    font-weight: bold;
+	color:var(--red5);
+	background:var(--red0);
+	border-radius:5px;
+}
+
+/*
+    the end =====
+*/
+
