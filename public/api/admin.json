@@ -3,8 +3,28 @@
 
 		{
 			"username" : "Mayank",
-			"password" : "devil",
+			"password" : "sudo",
 			"profile" : "https://avatars.githubusercontent.com/u/126972040?v=4",
+			"gitHub" : "https://github.com/MayankDevil",
+			"protfolio" : "https://mayankdevil.github.io/MayankDevil/",
+			"experience" : [
+				{
+					"company" : "Techsters Web",
+					"website" : "https://www.techstersweb.com/",
+					"time" : "2024-2025",
+					"position" : "IT Trainer & Web Developer",
+					"description" : "Delivered training sessions on web development technologies and contributed to building responsive, modern websites.",
+					"current_worker" : false
+				},
+				{
+					"company" : "Uengage",
+					"website" : "https://www.uengage.in/",
+					"time" : "2025-Present",
+					"position" : "Junior PHP Developer",
+					"description" : "Currently working as a Junior PHP Developer, contributing to backend development and maintaining web applications.",
+ 					"current_worker" : true
+				}
+			],
 			"data" : [
 
 				{
@@ -557,8 +577,11 @@
 		},
 		{
 			"username" : "Alisha",
-			"password" : "beg",
+			"password" : "hell",
 			"profile" : "https://avatars.githubusercontent.com/u/134086963?v=4",
+			"gitHub" : "https://github.com/AlishaBeg",
+			"protfolio" : "https://alishabeg.github.io/AlishaBeg/",
+			"experience" : null,
 			"data" : [
 				{
 					"folder" : "",
@@ -619,8 +642,21 @@
 			]
 		},
 		{
-			"username" : "user",
+			"username" : "HRitik",
+			"password" : "open",
+			"profile" : "https://avatars.githubusercontent.com/u/66529556?v=4",
+			"gitHub" : "https://github.com/Hritikkumar975",
+			"protfolio" : null,
+			"experience" : null,
+			"data" : null
+		},
+		{
+			"username" : "Alia Morozova",
 			"password" : "pass",
+			"profile" : "https://avatars.githubusercontent.com/u/56030294?v=4",
+			"gitHub" : "https://github.com/anunna",
+			"protfolio" : null,
+			"experience" : null,
 			"data" : null
 		}
 	]
