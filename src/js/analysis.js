@@ -85,8 +85,6 @@ $(document).ready(function () {
         function experience(data, element)
         {
             element.html(`<h6 class='lead'> experience </h6>`)
-
-            console.log(data)
             
             data.map((data_element) => {
                 

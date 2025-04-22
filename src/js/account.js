@@ -68,7 +68,7 @@ $(document).ready(function () {
                 activeSection(i)
             }
         }
-        activeSection(0) // default active section
+        activeSection(section.length - 1) // default active section
 
         /* 
             ----------------------
@@ -135,7 +135,7 @@ $(document).ready(function () {
                 folder.insertAdjacentHTML("beforeend",`
                     <div class='item'>
                         <span class='first'>
-                            <button class='clone_btn'> <span class='bi-egg-fill'></span> ${data['clone']} </button>
+                            <button class='clone_btn'> <span class='bi-clone bi-egg-fill'></span> ${data['clone']} </button>
                         </span>
                         <span class='last'>
                             <a href="#"  class='download_btn' download='${data['folder']}.zip'> download zip file </a>
@@ -172,23 +172,25 @@ $(document).ready(function () {
             ---------------------------------------
         */
 
-        $(".folder .clone_btn").click(() => {
-
+        $(".clone_btn").on("click", function () {
+                    
             let element = $(this)
             
-            let on_clone = navigator.clipboard.writeText(element.text())
+            let clone_url = element.text().trim()
             
-            on_clone.then(() => {
+            navigator.clipboard.writeText(clone_url).then(function () {
                 
-                element.find('span').removeClass('bi-egg-fill')
-                element.find('span').addClass('bi-egg-fried ')
-                element.find('span').css('color','var(--green4)')
-                
-            }).catch(function(error) {
-                
-                element.find('span').css('color','var(--red0)')
+                element.find("span").removeClass('bi-egg-fill').addClass('bi-egg-fried').css({
+                    'color' : 'var(--green4)'
+                })
+            
+            }).catch(function (error) {
+            
+                element.find('span').css('color', 'var(--red0)')
+
+                console.log(`(clone) : unable! \n ${error}`)
             })
-        });
+        })
         
         /*
             ----------------------------
