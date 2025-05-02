@@ -91,7 +91,7 @@
 						"MayankDevil",
 						"Hritikkummar732"
 					],
-					"look" : null, 
+					"look" : "gupt.png", 
 					"url" : "https://mayankdevil.github.io/Project-2",
 					"clone" : "https://github.com/MayankDevil/Project-2.git",
 					"download" : "https://github.com/MayankDevil/Project-2/archive/refs/heads/main.zip",
@@ -125,7 +125,7 @@
 					"copyright" : [
 						"MayankDevil"
 					],
-					"look" : null, 
+					"look" : "Indardanus.png", 
 					"url" : "https://mayankdevil.github.io/Indardanus",
 					"clone" : "https://github.com/MayankDevil/Indardanus.git",
 					"download" : "https://github.com/MayankDevil/Indardanus/archive/refs/heads/main.zip",
@@ -159,7 +159,7 @@
 					"copyright" : [
 						"MayankDevil"
 					],
-					"look" : null, 
+					"look" : "EntityCode.png", 
 					"url" : "https://mayankdevil.github.io/EntityCode",
 					"clone" : "https://github.com/MayankDevil/EntityCode.git",
 					"download" : "https://github.com/MayankDevil/EntityCode/archive/refs/heads/main.zip",
@@ -196,7 +196,7 @@
 					"copyright" : [
 						"MayankDevil"
 					],
-					"look" : null, 
+					"look" : "ProCoders.png", 
 					"url" : "https://mayankdevil.github.io/ProCoders",
 					"clone" : "https://github.com/MayankDevil/ProCoders.git",
 					"download" : "https://github.com/MayankDevil/ProCoders/archive/refs/heads/main.zip",
@@ -410,7 +410,7 @@
 					"copyright" : [
 						"MayankDevil"
 					],
-					"look" : null,
+					"look" : "CyberLaw.png",
 					"url" : "https://mayankdevil.github.io/CyberLaw",
 					"clone" : "https://github.com/MayankDevil/CyberLaw.git",
 					"download" : "https://github.com/MayankDevil/CyberLaw/archive/refs/heads/main.zip",
@@ -482,7 +482,7 @@
 						"MayankDevil",
 						"AlishaBeg"
 					],
-					"look" : null,
+					"look" : "assassin.png",
 					"url" : null,
 					"clone" : "https://github.com/MayankDevil/CyberSkull.git",
 					"download" : "https://github.com/MayankDevil/Assassin/archive/refs/heads/main.zip",
