@@ -7,6 +7,7 @@
 			"profile" : "https://avatars.githubusercontent.com/u/126972040?v=4",
 			"gitHub" : "https://github.com/MayankDevil",
 			"protfolio" : "https://mayankdevil.github.io/MayankDevil/",
+			"resume" : "https://raw.githubusercontent.com/MayankDevil/myData/main/public/pdf/resume.pdf",
 			"experience" : [
 				{
 					"company" : "Techsters Web",
@@ -14,7 +15,8 @@
 					"time" : "2024-2025",
 					"position" : "IT Trainer & Web Developer",
 					"description" : "Delivered training sessions on web development technologies and contributed to building responsive, modern websites.",
-					"current_worker" : false
+					"current_worker" : false,
+					"experience_letter" : "https://raw.githubusercontent.com/MayankDevil/myData/main/public/pdf/techstersweb.pdf"
 				},
 				{
 					"company" : "Uengage",
@@ -22,7 +24,8 @@
 					"time" : "2025-Present",
 					"position" : "Junior PHP Developer",
 					"description" : "Currently working as a Junior PHP Developer, contributing to backend development and maintaining web applications.",
- 					"current_worker" : true
+ 					"current_worker" : true,
+					"experience_letter" : "https://raw.githubusercontent.com/MayankDevil/myData/main/public/pdf/uengage.pdf"
 				}
 			],
 			"data" : [
@@ -581,6 +584,7 @@
 			"profile" : "https://avatars.githubusercontent.com/u/134086963?v=4",
 			"gitHub" : "https://github.com/AlishaBeg",
 			"protfolio" : "https://alishabeg.github.io/AlishaBeg/",
+			"resume" : null,
 			"experience" : null,
 			"data" : [
 				{
@@ -647,6 +651,7 @@
 			"profile" : "https://avatars.githubusercontent.com/u/66529556?v=4",
 			"gitHub" : "https://github.com/Hritikkumar975",
 			"protfolio" : null,
+			"resume" : null,
 			"experience" : null,
 			"data" : null
 		},
@@ -656,6 +661,7 @@
 			"profile" : "https://avatars.githubusercontent.com/u/56030294?v=4",
 			"gitHub" : "https://github.com/anunna",
 			"protfolio" : null,
+			"resume" : null,
 			"experience" : null,
 			"data" : null
 		}
