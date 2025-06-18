@@ -7,7 +7,7 @@
 			"profile" : "https://avatars.githubusercontent.com/u/126972040?v=4",
 			"gitHub" : "https://github.com/MayankDevil",
 			"protfolio" : "https://mayankdevil.github.io/MayankDevil/",
-			"resume" : "https://raw.githubusercontent.com/MayankDevil/myData/main/public/pdf/resume.pdf",
+			"resume" : "https://mayankdevil.github.io/myData/public/pdf/resume.pdf",
 			"experience" : [
 				{
 					"company" : "Techsters Web",
@@ -16,7 +16,7 @@
 					"position" : "IT Trainer & Web Developer",
 					"description" : "Delivered training sessions on web development technologies and contributed to building responsive, modern websites.",
 					"current_worker" : false,
-					"experience_letter" : "https://raw.githubusercontent.com/MayankDevil/myData/main/public/pdf/techstersweb.pdf"
+					"experience_letter" : "https://mayankdevil.github.io/myData/public/pdf/techstersweb.pdf"
 				},
 				{
 					"company" : "Uengage",
@@ -25,7 +25,7 @@
 					"position" : "Junior PHP Developer",
 					"description" : "Currently working as a Junior PHP Developer, contributing to backend development and maintaining web applications.",
  					"current_worker" : true,
-					"experience_letter" : "https://raw.githubusercontent.com/MayankDevil/myData/main/public/pdf/uengage.pdf"
+					"experience_letter" : "https://mayankdevil.github.io/myData/public/pdf/uengage.pdf"
 				}
 			],
 			"data" : [
