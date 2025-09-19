@@ -69,7 +69,7 @@
 				},
 
 				{
-					"folder" : "Project-2",
+					"folder" : "GUPT",
 					"name" : "GUPT",
 					"description" : "ensure free digital security college final year project",
 					"software" : "WebApplication",
@@ -95,9 +95,9 @@
 						"Hritikkummar732"
 					],
 					"look" : "gupt.png", 
-					"url" : "https://mayankdevil.github.io/Project-2",
-					"clone" : "https://github.com/MayankDevil/Project-2.git",
-					"download" : "https://github.com/MayankDevil/Project-2/archive/refs/heads/main.zip",
+					"url" : "https://mayankdevil.github.io/GUPT",
+					"clone" : "https://github.com/MayankDevil/GUPT.git",
+					"download" : "https://github.com/MayankDevil/GUPT/archive/refs/heads/main.zip",
 					"status" : "COMPLETED",
 					"update" : "2024-01-12",
 					"version" : "1",
