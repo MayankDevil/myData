@@ -1,0 +1,27 @@
+{
+  "name": "mydata",
+  "version": "2.0.0",
+  "description": "public collected data set ",
+  "main": "index",
+  "hijack" : "pass",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MayankDevil/myData.git"
+  },
+  "keywords": [
+    "mydata",
+    "database",
+    "dataSet",
+    "publicData",
+    "dataCollection"
+  ],
+  "author": "Mayank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MayankDevil/myData/issues"
+  },
+  "homepage": "https://github.com/MayankDevil/myData#readme"
+}
