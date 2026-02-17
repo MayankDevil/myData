@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- 
+-   "myData" version-(2.0)
+-   File : src/app.html
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayank</title>
+
+    <!-- ( style ) -->
+    <link rel="stylesheet" href="src/assets/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <!-- ( script ) -->
+    <script src="src/assets/jQuery.min.js"></script>
+    <script src="src/js/account.js"></script>
+    <script src="src/js/analysis.js"></script>
+    <script src="src/js/script.js"></script>
+
+</head>
+
+<body>
+
+    <!-- [ main container ] -->
+    <main id="root">
+        <!-- ( login section ) -->
+        <section id="login">
+            <form>
+
+                <h2> Login account </h2>
+
+                <p> This section is restricted to authorized personal. Please enter your admin credentials to log in. Unauthorized access attempts will be monitored and reported. </p>
+
+                <input type="email" placeholder="Username" class="fld" id="username" />
+                
+                <input type="password" placeholder="Password" class="fld" id="password" />
+
+                <div>
+                    <input type="button" value="Login" class="btn" id="login_btn" />
+                </div>
+
+                <div id="status"></div>
+
+            </form>
+        </section>
+
+        <section class="row" id="account">
+            <!-- ( col : sidebar ) -->
+            <div class="col" id="sidebar">
+
+                <!-- ( aside anchor ) -->
+                <aside id="aside">
+
+                    <div id="search">
+                        <span class="bi bi-search"></span> 
+
+                        <input type="search" name="" placeholder="search folder ..." class="fld" id="bar" />                        
+                    </div>
+
+                    <a href="#" class="a_btn"> <span class="bi-person"></span> about </a>
+                    <a href="#" class="a_btn"> <span class="bi-pie-chart"></span> statics </a>
+                    <a href="#" class="a_btn"> <span class="bi-database"></span> database </a>
+                    
+                    <div class="group" id="">
+
+                        <button class="btn" id="private_btn"> <span class="bi bi-shield"></span> is Private </button>
+                    
+                        <span class="bi bi-grid bi_btn"></span>                            
+                    
+                        <span class="bi bi-list bi_btn"></span> 
+
+                    </div>
+
+                    <div class="" id="time"> 
+                    
+                        <label for=""> Created at </label>
+
+                        <input type="date" name="" id="date_fld" /> 
+                    </div>
+
+                    <select class="filter" id="filter">
+                        <option value=""> filter </option>
+                    </select>
+
+                </aside>
+
+            </div>
+            <!-- ( col : content container ) -->
+            <div class="col" id="frame">
+                
+                <!-- ( header ) -->
+                <header id="header">
+
+                    <h1 id="title"> <span class="bi bi-columns-gap" id="nav_btn"></span> Welcome </h1>
+                    
+                    <button class="btn" id="logout_btn"> <div class="bi bi-box"></div> Logout </button>
+
+                </header>
+                <!-- ( about ) -->
+                <section class="section" id="about"></section>
+                <!-- () -->
+                <section class="section" id="statics"></section>
+                <!-- ( datalist ) -->
+                <section class="section" id="dataList"></section>
+
+            </div>
+
+        </section>
+    </main>
+
+</body>
+
+</html>
+<!-- Developer Mayank | ( https://mayankdevil.github.io/MayankDevil ) -->
