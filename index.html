@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!--
+-   "index" (version-2.0.0)
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Application (version-2.0.0) </title>
+    
+    <!-- ( style ) -->
+    <link rel="stylesheet" href="src/assets/bootstrap-icons.min.css">
+    <style>
+        *{
+            user-select: none;
+			margin:0;
+			padding: 0;
+			font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji";
+			font-family:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+			color: var(--dark4);
+			text-decoration: none;
+			font-weight: normal;
+			border: none;
+			outline: none;
+			box-sizing: border-box;
+		}
+        :root
+        {
+            --dark0:#f8f9fa;
+            --dark1:#e9ecef;
+            --dark2:#dee2e6;
+            --dark3:#ced4da;
+            --dark4:#adb5bd;
+            --dark5:#6c757d;
+            --dark6:#495057;
+            --dark7:#343a40;
+            --dark8:#212529;
+            --red0:#f8d7da;
+            --red4:#dc3545;
+            --red5:#b02a37;
+            --green0:#d1e7dd;
+            --green4:#198754;
+            --green5:#146c43;
+        }
+        .container {
+            height: 100vh;
+            width: 100%;
+        }
+        .container .row {
+            height: 100vh;
+            background: var(--dark8);
+        }
+        .container .row .col {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            height: 50%;
+            }
+        .lead {
+            line-height: 500%;
+            font-size: xx-large;
+            color: var(--dark6) !important;
+        }
+        .bi {
+            width:auto;
+            font-size: 5vw;
+            background: transparent;
+            border-radius: 50%;
+            animation: anime linear 2s infinite alternate;
+        }
+        @keyframes anime {
+            from {
+                transform: translateY(0);
+                box-shadow: 0 0 10px var(--dark7);
+            } to {
+                transform: translateY(10PX);
+                box-shadow: 0 0 50px var(--dark6);
+            }
+        }
+        @media  screen and (max-width:1000PX)
+        {
+        }
+        @media  screen and (max-width:500PX)
+        {
+            .lead {
+                font-size: x-large;
+            }
+        }
+        
+    </style>
+
+    <!-- ( script ) -->
+    <script>
+
+        window.addEventListener('load', function () {
+
+            let params = window.location.search.substring(1).split("=")
+            
+            /* if login redirect */
+
+            if (params[0] == "login") {
+
+                window.location.href = "app"
+
+                return null
+            }
+
+            /* error codes */
+
+            if (params[0] == "error") {
+            
+                let error = {
+                
+                    "400": "400 - Bad Request",
+                    "401": "401 - Unauthorized",
+                    "402": "402 - Payment Required",
+                    "403": "403 - Forbidden",
+                    "404": "404 - Page Not Found",
+                    "405": "405 - Method Not Allowed",
+                    "408": "408 - Request Timeout",
+                    "500": "500 - Internal Server Error",
+                    "502": "502 - Bad Gateway",
+                    "503": "503 - Service Unavailable",
+                    "504": "504 - Gateway Timeout"
+                }
+                
+                let code = params[1]
+
+                console.log(`ERROR ${error[code]}`)
+
+                document.title = params[0].toUpperCase() + ":" + params[1]
+
+                document.querySelector(".container .row .col:last-child .lead").innerHTML = `ERROR ${error[code]}`
+            }
+
+            /* on package click */
+
+            document.querySelector(".container .row .col:first-child span").addEventListener('click', function () {
+
+                window.location.href = 'app'
+            })
+
+            /* auto back */
+
+            setTimeout(function () {
+                
+                window.history.back()
+            
+            }, 10 * 1000);
+        })
+
+    </script>
+
+</head>
+
+<body>
+    <!-- ( main ) -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <span class="bi bi-box"></span>
+            </div>
+            <div class="col">
+                <div class="lead"> कार्यस्य व्यस्तप्रतीक्षायाः कृते क्षमाप्रार्थना </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<!-- https://mayankdevil.github.io/myData/ -->
