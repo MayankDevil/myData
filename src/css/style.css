@@ -1,0 +1,540 @@
+/*
+-   "myData" version-(2.0)
+-   File : src/app.html
+*/
+
+/*
+    ----------------------
+    | Bootstrap ICON URL |
+    ----------------------
+*/
+@import url(../assets/bootstrap-icons.min.css);
+
+*
+{
+    user-select:text;
+    margin: 0;
+    padding: 0;
+    font-family:'Dosis',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color:var(--dark1);
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body
+{
+    scroll-behavior: smooth;
+}
+
+:root
+{
+    --dark0:#f8f9fa;
+    --dark1:#e9ecef;
+    --dark2:#dee2e6;
+    --dark3:#ced4da;
+    --dark4:#adb5bd;
+    --dark5:#6c757d;
+    --dark6:#495057;
+    --dark7:#343a40;
+    --dark8:#212529;
+	--red0:#f8d7da;
+	--red4:#dc3545;
+	--red5:#b02a37;
+	--green0:#d1e7dd;
+	--green4:#198754;
+	--green5:#146c43;
+}
+
+
+::selection
+{
+    color:var(--dark8);
+    background: var(--red0);
+}
+::placeholder
+{
+    color:var(--dark4);
+}
+::-webkit-scrollbar
+{
+    width: 0.5rem;
+    background: var(--blue);
+}
+::-webkit-scrollbar-thumb
+{
+    background: var(--light);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb
+::-moz-scrollbar-thumb
+::-ms-scrollbar-thumb
+{
+    background: var(--skyblue);
+}
+
+
+/*
+    comman css -------------------------
+*/
+/* .container
+{
+    max-width:1200px;
+    margin: 0 auto;
+} */
+.bi
+{
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 1em;
+    color:var(--dark0);
+}
+
+h1
+{
+    font-weight: normal;
+}
+p
+{
+    line-height: 2rem;
+    font-weight: normal;
+    text-align: justify;
+}
+.row
+{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
+/* column first */
+
+.col:first-child,
+#sidebar
+{
+    display: block;
+    background: var(--dark8);
+}
+#aside
+{
+    display: block;
+    margin: 3rem 5px;
+}
+#aside .a_btn
+{
+    display: block;
+    margin: 0 0;
+    padding:1rem;
+    font-size:small;
+    letter-spacing: 2px;
+    color: var(--dark5);
+}
+#aside .a_btn span
+{
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 1.2em;
+    background: var(--dark6);
+    border-radius: 5px;
+}
+#aside .a_btn:hover span
+{
+    background: var(--dark7);
+}
+#aside .a_btn:hover 
+{
+    color:var(--dark3)
+}
+
+/* search */
+
+#search
+{
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+    border: 1px solid var(--dark6);
+}
+#search #bar
+{
+    width: 100%;
+    font-size: 1rem;
+    padding: 5px 20px;
+    caret-color: var(--red4);
+    color:var(--red0);
+    background: var(--dark8);
+    border: 0;
+    border-left:1px solid var(--dark6);
+    border-radius: 0;
+}
+
+/* button */
+
+#aside button 
+{
+    text-align: left;
+    font-size: small;
+    color: var(--dark5);
+    background: var(--dark8);
+    border: 1px solid var(--dark7);
+}
+#aside input:focus,
+#aside button:hover
+{
+    border-color: var(--dark6);
+}
+
+.group
+{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr auto auto;
+    width: 90%;
+    margin: 5px;
+    background: var(--dark8);
+}
+.group > .bi
+{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid var(--dark7);
+}
+#time
+{
+    display: flex;
+    grid-gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    width: 80%;
+    margin: 15px 15px;
+    padding: 10px;
+    font-size: small;
+    color: var(--dark5);
+    background: transparent;
+    border:1px solid var(--dark6);
+    border-radius:5px;
+}
+label 
+{
+    display: inline-block;
+}
+#date_fld
+{
+    background: var(--dark8);
+}
+
+select
+{
+    display: flex;
+    grid-gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    width: 80%;
+    margin: 15px 15px;
+    padding: 10px;
+    font-size: small;
+    color: var(--dark5);
+    background: transparent;
+    border:1px solid var(--dark6);
+    border-radius:5px;
+}
+select:focus option
+{
+    background: var(--dark6);
+}
+
+/* column last */
+
+.col:last-child
+{
+    background: var(--dark7);
+}
+
+#header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 2rem auto;
+    padding: 10px;
+}
+
+#nav_btn
+{
+    display: inline-block;
+    font-size: 0.5em;
+    padding: 15px 20px;
+    background-color: var(--dark8);
+}
+#nav_btn:hover
+{
+    transform: rotate(360deg);
+    transition: all 1s linear;
+    /* color: var(--dark8); */
+}
+
+#logout_btn
+{
+    display: flex;
+    align-items: center;
+}
+#logout_btn .bi
+{
+    padding: 0 5px;
+    color:var(--dark8);
+}
+
+h2
+{
+    line-height: 3rem;
+    font-weight: lighter;
+    color: var(--dark3);
+}
+h3
+{
+    line-height: 3rem;
+    color:var(--dark4);
+}
+h4
+{
+    letter-spacing: 2px;
+    color:var(--dark4);
+}
+h6
+{
+    font-size:medium;
+    color:var(--dark5);
+}
+p
+{
+    padding: 0 5px;
+    font-size: smaller;
+    color:var(--dark5);
+}
+a
+{
+    /* display: inline-block; */
+    line-height: 1.5rem;
+    font-size: small;
+    color:var(--dark4);
+}
+a:hover
+{
+    color:var(--dark0);
+}
+/* 
+    about section -----------------------------
+*/
+
+#about .items
+{
+    margin: 10px auto;
+    border:1px solid var(--dark6);
+    border-radius: 5px;
+}
+
+#about .us
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background: var(--dark8);
+    /* border: 1px groove var(--dark6); */
+}
+#about .url_btn
+{
+    display: inline-block;
+    margin: 5px;
+    font-weight: bold;
+    padding: 1px 5px;
+    background: var(--dark7);
+    border-radius: 5px;
+}
+#about .profile_image
+{
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
+    border: 1px solid var(--red4);
+}
+
+/* 
+    statics section -----------------------------
+*/
+:is(#about,#statics)
+{
+    width: 90%;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+:is(#statics) > div
+{
+    border:1px solid var(--dark6);
+    border-radius: 5px;
+}
+#statics .item
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 5fr 2fr;
+}
+:is(#about,#statics) .item:hover
+{
+    background: var(--dark8);
+}
+.bi_btn
+{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: var(--dark8);
+    border: 1px solid var(--dark7);
+}
+
+/* 
+    database section -----------------------------
+*/
+
+#dataList .folder
+{
+    overflow: hidden;
+    width: 90%;
+    margin: 2rem auto;
+    border:1px solid var(--dark6);
+    border-radius: 5px;
+}
+
+#dataList .folder summary
+{
+    list-style-type: none;
+    border-bottom: 1px dotted var(--dark5);
+}
+#dataList .folder p
+{
+    padding: 0 5px;
+    font-size: smaller;
+    color:var(--dark5);
+}
+#dataList .folder summary h5
+{
+    line-height: 2rem;
+    font-weight: normal;
+    color:var(--dark4)
+}
+
+.item
+{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.folder > .items:hover
+{
+    background:var(--dark8);
+}
+.first
+{
+    color:var(--dark5);
+    padding: 0 5px;
+}
+.last
+{
+    color:var(--dark4);
+}
+
+.folder > .item:last-child
+{
+    margin-top: 5px;
+}
+.folder > .item:last-child .first
+{
+
+}
+
+.clone_btn,
+.download_btn
+{
+    margin: 2px 1px;
+    padding:3px  10px;
+    font-size: small;
+    color:var(--dark8);
+    background:var(--dark3);
+    border-radius: 5px;
+}
+.download_btn:hover
+{
+    color:var(--dark3);
+    background: var(--dark6);
+}
+
+.clone_btn
+{
+    color:var(--dark4);
+    background-color: var(--dark8);
+}
+
+/*
+    login css ------------------------------------
+*/
+
+#login
+{
+	height:100vh;
+    background: var(--dark8);
+}
+form
+{
+    display: grid;
+    grid-gap:2rem;
+    max-width: 500px;
+    margin:auto;
+    padding: 5rem 1rem;
+}
+.fld
+{
+    padding: 1rem;
+	font-size:medium;
+    background: transparent;
+    border: 1px solid var(--dark6);
+    border-radius: 5px;
+}
+
+.btn
+{
+    display: inline-block;
+    padding: 0.5rem;
+    font-weight: bolder;
+    font-size: 1rem;
+    color:var(--dark8);
+    background: var(--dark4);
+    border-radius: 5px;
+}
+.btn:hover
+{
+    background: var(--dark0);
+}
+.valid
+{
+	padding:1rem;
+	font-size:small;
+    font-weight: bold;
+	color:var(--green4);
+	background:var(--green0);
+	border-radius:5px;
+}
+.unvalid
+{
+	padding:1rem;
+	font-size:small;
+    font-weight: bold;
+	color:var(--red5);
+	background:var(--red0);
+	border-radius:5px;
+}
+
+/* Developer Mayank | ( https://mayankdevil.github.io/MayankDevil ) */
