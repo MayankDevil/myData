@@ -10,7 +10,7 @@ https://mayankdevil.github.io/myData/public/
 
 ---
 
-### Assets URL
+### assets URL
 
 https://mayankdevil.github.io/myData/src/assest/
 
@@ -22,7 +22,7 @@ https://mayankdevil.github.io/myData/src/assest/
 
 ---
 
-### ERROR URL
+### error URL
 
 https://mayankdevil.github.io/myData/?error=
 
