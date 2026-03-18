@@ -1,0 +1,44 @@
+{
+	"admin" : [
+
+		{
+			"username" : "Mayank",
+			"password" : null,
+ 			"profile" : "https://avatars.githubusercontent.com/u/126972040?v=4",
+			"gitHub" : "https://github.com/MayankDevil",
+			"protfolio" : "https://mayankdevil.github.io/MayankDevil/",
+			"resume" : "https://mayankdevil.github.io/myData/public/pdf/resume.pdf",
+			"data" : "https://api.github.com/users/MayankDevil/repo",
+			"experience" : [
+				{
+					"company" : "Techsters Web",
+					"website" : "https://www.techstersweb.com/",
+					"time" : "2024-2025",
+					"position" : "IT Trainer & Web Developer",
+					"description" : "Delivered training sessions on web development technologies and contributed to building responsive, modern websites.",
+					"current_worker" : false,
+					"experience_letter" : "https://mayankdevil.github.io/myData/public/pdf/techstersweb.pdf"
+				},
+				{
+					"company" : "Uengage",
+					"website" : "https://www.uengage.in/",
+					"time" : "2025-Present",
+					"position" : "Junior PHP Developer",
+					"description" : "Currently working as a Junior PHP Developer, contributing to backend development and maintaining web applications.",
+ 					"current_worker" : true,
+					"experience_letter" : "https://mayankdevil.github.io/myData/public/pdf/uengage.pdf"
+				}
+			]
+		},
+		{
+			"username" : "Alia Morozova",
+			"password" : "pass",
+			"profile" : "https://avatars.githubusercontent.com/u/56030294?v=4",
+			"gitHub" : "https://github.com/anunna",
+			"protfolio" : null,
+			"resume" : null,
+			"experience" : null,
+			"data" : null
+		}
+	]
+}

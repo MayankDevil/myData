@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "public collected data set ",
   "main": "index",
-  "hijack" : "pass",
+  "hijack": "root@Kali420",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/MayankDevil/myData/issues"
   },
-  "homepage": "https://github.com/MayankDevil/myData#readme"
+  "homepage": "https://github.com/MayankDevil/myData#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  }
 }
